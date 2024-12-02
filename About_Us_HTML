@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recyclo - About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS eksternal -->
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="D:\Data science\Semester 5\Software Engineering\Main_Logo.png" alt="Recyclo Logo" style="display:inline-block; height:28px; margin-right:5px; padding-bottom: 9px;">
+        </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Jemput Sampah</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Poin Saya</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <div class="logo-container">
+      <img src="D:\Data science\Semester 5\Software Engineering\logo 5.png" alt="Logo 5">
+    </div>
+    <div class="text-container">
+      <h2>Tentang Kami</h2>
+      <p>Layanan pengelolaan limbah khusus yang berkomitmen untuk menciptakan masa depan yang lebih hijau.</p>
+      <p>Kami bekerja sama dengan masyarakat dan
+        bisnis untuk mengurangi sampah,
+        mempromosikan daur ulang, dan mengubah
+        sampah menjadi sumber daya yang berharga.</p>
+    </div>
+  </div>
+    <!-- Visi Kami Section -->
+<div class="vision-section">
+    <div class="text-container">
+      <h2>Visi Kami</h2>
+      <p>Untuk memimpin transformasi menuju masa depan minim sampah, dimana masyarakat dan bisnis menerapkan praktik berkelanjutan, mengubah sampah menjadi sumber daya yang berharga bagi planet yang lebih hijau.</p>
+    </div>
+    <div class="image-container">
+      <img src="D:\Data science\Semester 5\Software Engineering\Image 10.png" alt="Image 10">
+    </div>
+  </div>
+
+  <!-- Misi Kami Section -->
+<section class="mission-section">
+    <div class="container">
+      <h2 class="mission-title">Misi Kami</h2>
+      
+      <!-- Misi 1 -->
+      <div class="mission-item">
+        <div class="image-container">
+          <img src="D:\Data science\Semester 5\Software Engineering\people.png" alt="people">
+        </div>
+        <div class="text-container">
+          <p>Menyediakan solusi pengelolaan sampah inovatif yang mempromosikan daur ulang dan mengurangi sampah TPA.</p>
+        </div>
+      </div>
+  
+      <!-- Misi 2 -->
+      <div class="mission-item">
+        <div class="image-container">
+          <img src="D:\Data science\Semester 5\Software Engineering\model.png" alt="model">
+        </div>
+        <div class="text-container">
+          <p>Memanfaatkan teknologi untuk berkontribusi pada ekonomi sirkular dan masa depan yang berkelanjutan.</p>
+        </div>
+      </div>
+  
+      <!-- Misi 3 -->
+      <div class="mission-item">
+        <div class="image-container">
+          <img src="D:\Data science\Semester 5\Software Engineering\recycle-bin.png" alt="recycle-bin">
+        </div>
+        <div class="text-container">
+          <p>Berkolaborasi dengan masyarakat dan pelaku bisnis, guna menumbuhkan budaya keberlanjutan dan pengelolaan lingkungan.</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+<!-- Team Profiles -->
+<div class="profile-team">
+    <div class="profile-logo">
+      <img src="D:/Data science/Semester 5/Software Engineering/logo 5.png" alt="Logo 5" class="logo-5-img">
+    </div>
+    <div class="profile-info">
+      <h3>Dibalik Recyclo</h3>
+      <div class="team-members">
+        <div>
+          <img src="D:/Data science/Semester 5/Software Engineering/lin.jpg" alt="Allin Setiawan">
+          <h4>Allin Setiawan</h4>
+        </div>
+        <div>
+          <img src="D:/Data science/Semester 5/Software Engineering/kay.jpg" alt="Kayla Masayuningtyas">
+          <h4>Kayla Masayuningtyas</h4>
+        </div>
+        <div>
+          <img src="D:/Data science/Semester 5/Software Engineering/mei.jpg" alt="Meisa Kamilia">
+          <h4>Meisa Kamilia</h4>
+        </div>
+        <div>
+          <img src="D:/Data science/Semester 5/Software Engineering/trish.jpg" alt="Patricia Pepita">
+          <h4>Patricia Pepita</h4>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h4>Hubungi Kami untuk Informasi Lebih Lanjut</h4>
+      <form>
+        <label>Nama:</label>
+        <input type="text" class="form-control" required>
+
+        <label>Perusahaan:</label>
+        <input type="text" class="form-control">
+
+        <label>Email:</label>
+        <input type="email" class="form-control" required>
+
+        <label>Apa yang ingin ditanyakan?</label>
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> Sistem Pemilahan Sampah</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> Kemitraan Relawan</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value=""> Lainnya</label>
+        </div>
+
+        <label>Pesan:</label>
+        <textarea class="form-control" rows="4"></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- Footer -->
+ <footer class="footer-custom" style="background-color: #EEC824; padding: 20px 0; margin-top: 20px;">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Section -->
+        <div class="col-md-6">
+          <img src="D:\Data science\Semester 5\Software Engineering\logo 3.png" alt="Recyclo Logo" style="display:inline-block; height:50px; padding-right:0px; padding-bottom: 15px;">
+          <p><span class="glyphicon glyphicon-globe"></span> www.recyclo.co.id</p>
+          <p><span class="glyphicon glyphicon-phone"></span> Instagram @re.cyclo</p>
+          <p>Jl. Jendral Sudirman Kav. 4A, Central Jakarta, DKI Jakarta</p>
+        </div>
+        <!-- Right Section -->
+        <div class="col-md-6 text-right">
+          <p>Mitra Anda untuk Masa Depan yang <strong style="color: #6A961F;">Lebih Hijau</strong></p>
+          <img src="D:\Data science\Semester 5\Software Engineering\logo 5.png" alt="Recyclo Icon" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
