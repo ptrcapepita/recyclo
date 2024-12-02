@@ -1,0 +1,265 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header (Navbar) Styles */
+  .navbar-custom {
+    background-color: #EEC824; /* Yellow background */
+    border: none;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #232336 !important; 
+  }
+  
+  .navbar-nav > li > a {
+    color: #232336 !important; 
+    font-weight: 500;
+  }
+  
+  .navbar-nav > li:last-child > a::after {
+    margin-left: 5px;
+  }
+  
+  .navbar-nav > li > a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styling */
+/* About Section Styling */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    position: relative;
+  }
+  
+  .about-section .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-section .logo-container img {
+    width: 80%;
+    max-width: 150px;
+  }
+  
+  .about-section .text-container {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    padding-right: 40px;
+    font-size: 18px;
+  }
+  
+  /* Background overlay for the section */
+  .about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 60%;
+    height: 100%;
+    background-image: url('file:///D:/Data%20science/Semester%205/Software%20Engineering/background.png'); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  } 
+  
+ /* Visi Kami Section Styling */
+.vision-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+  }
+  
+  .vision-section .text-container {
+    flex: 1;
+    padding: 20px;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+  .vision-section h2 {
+    color: #4CAF50; 
+  }
+  
+  .vision-section .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vision-section .image-container img {
+    width: 50%; 
+  max-width: 250px; 
+  height: auto; 
+  }
+
+/* Misi Kami Section Styling */
+.mission-section {
+  padding: 50px 15px;
+}
+
+.mission-title {
+  color: #4CAF50; 
+  font-size: 36px; 
+  margin-bottom: 40px;
+  text-align: left; 
+}
+
+.mission-item {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  margin-bottom: 30px;
+}
+
+.mission-item .image-container {
+  flex: 0 0 auto; /* Keep the image size fixed */
+  margin-right: 15px; /* Adjust space between image and text */
+}
+
+.mission-item .image-container img {
+  width: 50px; /* Adjust image size */
+  height: auto;
+}
+
+.mission-item .text-container {
+  text-align: left; /* Ensure text is aligned to the left */
+  max-width: 800px; /* Limit the width of the text to avoid long lines */
+}
+
+.mission-item p {
+  font-size: 18px; /* Text font size */
+  color: #232336; /* Text color */
+  margin: 0; /* Remove default margin from the paragraph */
+}
+
+/* Profile Team Section */
+.profile-team {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; /* Menyusun logo dan teks di kiri dan kanan */
+  background-color: #A0DFDF; /* Light blue background */
+  padding: 20px; /* Memberikan padding */
+  border-radius: 8px; /* Sudut melengkung (optional) */
+}
+
+.profile-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-5-img {
+  width: 150px;
+  height: 150px; 
+  margin-right: 20px; 
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.profile-info h3 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10x;
+  text-align: right; 
+  margin-left: auto;
+}
+
+.team-members {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+.team-members div {
+  text-align: center;
+  margin: 0 70px; 
+}
+
+.team-members img {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-members h4 {
+  margin-top: 10px;
+  color: #232336;
+  font-size: 16px;
+}
+
+  /* Contact Section */
+  .contact-form {
+    margin-top: 50px;
+    background-color: #FFF7D6;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .contact-form h4 {
+    font-weight: bold;
+    color: #232336;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    background-color: #6A961F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #556B2F;
+  }
+  
+  /* Footer Styles */
+  .footer-custom {
+    background-color: #EEC824;
+    color: #232336;
+    padding: 20px 15px;
+  }
+  
+  .footer-custom img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-custom .glyphicon {
+    margin-right: 5px;
+  }
+  
+  .footer-custom p {
+    margin: 5px 0;
+    color: #232336;
+  }
+  
+  .footer-custom .text-right p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
