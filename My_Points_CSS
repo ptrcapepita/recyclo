@@ -1,0 +1,63 @@
+/* Header Custom */
+.navbar-custom {
+    background-color: #EEC824; /* Yellow background */
+    border: none;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #232336 !important; /* Black color */
+  }
+  
+  .navbar-nav > li > a {
+    color: #232336 !important; /* Black color */
+    font-weight: 500;
+  }
+  
+  .navbar-nav > li > a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+  }
+  
+  .profile-section .text-container {
+    flex: 1;
+    padding: 20px;
+    z-index: 1;
+    font-size: 18px;
+  }
+  
+  .vision-section h2 {
+    color: #4CAF50; 
+  }
+  
+  .profile-section .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-section .image-container img {
+  width: 50%; 
+  max-width: 250px; 
+  height: auto; 
+  }
+  
+  
+  /* Footer Custom */
+  .footer-custom {
+    background-color: #EEC824;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-custom p {
+    margin: 5px 0;
+  }
+  
