@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recyclo - My Points</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-custom">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="D:\Data science\Semester 5\Software Engineering\logo 3.png" alt="Recyclo Logo" style="display:inline-block; height:28px; margin-right:5px; padding-bottom: 9px;">
+        </a>
+      </div>
+      <!-- Links -->
+      <ul class="nav navbar-nav">
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Jemput Sampah</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Poin Saya</a></li>
+      </ul>
+      <!-- Navbar-signup login -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Masuk Akun</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="profile-section">
+    <div class="text-container">
+        <p>Saya telah berkontribusi dalam mewujudkan planet yang lebih hijau dengan menyetorkan 15 kilogram sampah dalam 3 bulan kepada RECYCLO</p>
+      </div>
+      <div class="image-container">
+        <img src="D:\Data science\Semester 5\Software Engineering\Image 12.png" alt="Image 12">
+      </div>
+  </div>  
+
+    <!-- Last Deposit Section -->
+    <div class="panel panel-default">
+      <div class="panel-heading"><strong>Setoran Terakhir</strong></div>
+      <div class="panel-body">
+        <p>Tanggal jemput terakhir: Selasa, 8 Oktober 2024</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #6A961F;">5 kg</div>
+        </div>
+        <p><strong>Poin sekarang:</strong> 50 &nbsp;&nbsp; | &nbsp;&nbsp; <strong>Sampah terkumpul:</strong> 5 kg</p>
+        <button class="btn btn-success">Tukar Poin</button>
+        <button class="btn btn-primary">Layanan Jemput Sampah</button>
+      </div>
+    </div>
+
+    <!-- Redemption History Section -->
+    <h3>Riwayat Penukaran</h3>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Total Sampah</th>
+          <th>Total Poin Ditukar</th>
+          <th>Jenis E-Money</th>
+          <th>Tanggal Penukaran</th>
+          <th>Total Penukaran</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10 kg</td>
+          <td>100</td>
+          <td>Go-Pay</td>
+          <td>20 September 2024</td>
+          <td>Rp50.000,00</td>
+        </tr>
+        <tr>
+          <td>10 kg</td>
+          <td>100</td>
+          <td>Go-Pay</td>
+          <td>5 Agustus 2024</td>
+          <td>Rp50.000,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-custom" style="background-color: #EEC824; padding: 20px 0; margin-top: 20px;">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Section -->
+        <div class="col-md-6">
+          <img src="D:\Data science\Semester 5\Software Engineering\logo 3.png" alt="Recyclo Logo" style="display:inline-block; height:50px; padding-right:0px; padding-bottom: 15px;">
+          <p><span class="glyphicon glyphicon-globe"></span> www.recyclo.co.id</p>
+          <p><span class="glyphicon glyphicon-phone"></span> Instagram @re.cyclo</p>
+          <p>Jl. Jendral Sudirman Kav. 4A, Central Jakarta, DKI Jakarta</p>
+        </div>
+        <!-- Right Section -->
+        <div class="col-md-6 text-right">
+          <p>Mitra Anda untuk Masa Depan yang <strong style="color: #6A961F;">Lebih Hijau</strong></p>
+          <img src="D:\Data science\Semester 5\Software Engineering\logo 5.png" alt="Recyclo Icon" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
