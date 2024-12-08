@@ -1,0 +1,115 @@
+.navbar-custom {
+    background-color: #EEC824; /* Yellow background */
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #232336 !important; /* Black color */
+}
+
+.navbar-nav > li > a {
+    color: #232336 !important; /* Black color */
+    font-weight: 500;
+}
+
+.navbar-nav > li:last-child > a::after {
+    margin-left: 5px;
+}
+
+.navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #6A961F;
+    text-align: center;
+    font-weight: 750;
+}
+
+.box-info {
+    background-color: #f0fdf0;
+    border: 2px solid #6A961F;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.box-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.submit-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button button:hover {
+    background-color: #45a049;
+}
