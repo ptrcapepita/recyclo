@@ -1,0 +1,72 @@
+.navbar-custom {
+    background-color: #EEC824; /* Yellow background */
+    border: none;
+  }
+.navbar-brand {
+    font-weight: bold;
+    color: #232336 !important; /* Black color */
+  }
+.navbar-nav > li > a {
+    color: #232336 !important; /* Black color */
+    font-weight: 500;
+  }
+.navbar-nav > li:last-child > a::after {
+    margin-left: 5px;
+  }
+.navbar-nav > li > a:hover {
+    text-decoration: underline;
+  }
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 35px;
+    font-weight: bolder;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px; /* Sesuaikan lebar label */
+    margin-right: 10px;
+    text-align: right;
+}
+.form-group input,
+.form-group textarea {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[ type="tel"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    /* padding: 12px 20px; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 60%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
