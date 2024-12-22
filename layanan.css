@@ -1,0 +1,219 @@
+.navbar-custom {
+    background-color: #EEC824;
+    /* Yellow background */
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #232336 !important;
+    /* Black color */
+}
+
+.navbar-nav>li>a {
+    color: #232336 !important;
+    /* Black color */
+    font-weight: 500;
+}
+
+.navbar-nav>li:last-child>a::after {
+    margin-left: 5px;
+}
+
+.navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.container1 img {
+    width: 50%;
+    display: flex;
+}
+
+.imagecontainer {
+    width: 45%;
+    height: 320px;
+}
+
+.imagecontainer img {
+    width: 550px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.container2 .title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.container2 img {
+    width: 55px;
+    /* Adjust the image size as needed */
+    height: fit-content;
+    margin-right: 10px;
+    /* Adjust spacing between image and text */
+}
+
+.container2 .text-container {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-container h2 {
+    margin: 0;
+    margin-top: 6px;
+    color: #6a961f;
+}
+
+.container2 p {
+    font-size: 23px;
+    font-weight: 600;
+    width: 550px;
+    margin: 15px 0;
+    margin-left: 6px;
+}
+
+.text-section ul {
+    padding-left: 3px;
+}
+
+.text-section li {
+    background-color: #92b473;
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0;
+    width: 400px;
+    height: 40px;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+
+.text-section p {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.container3 .judul h1 {
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.container3 ul {
+    padding-left: 6px;
+}
+
+.container3 li {
+    list-style-type: none;
+    margin-left: 50px;
+    font-weight: 550;
+    margin-bottom: 1%;
+}
+
+.form_jemput {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.form_jemput h1 {
+    font-weight: 450;
+    font-size: 30px;
+}
+
+.form_jemput button {
+    height: 40px;
+    width: 400px;
+    margin-left: 30px;
+    border: none;
+    background-color: #a0dfdf;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+
+.article .isi {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.article .title {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #6a961f;
+    align-items: center;
+}
+
+.article .title img {
+    width: 60px;
+    height: fit-content;
+}
+
+.article .isi p {
+    font-size: 18px;
+    font-weight: 600;
+    width: 600px;
+}
+
+.article .gambar img {
+    width: 700px;
+    height: fit-content;
+}
+
+.content1 button{
+    height: 40px;
+    width: 400px;
+    border: none;
+    background-color: #a0dfdf;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content2 button{
+    height: 40px;
+    width: 400px;
+    border: none;
+    background-color: #a0dfdf;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 700;
+}
